@@ -1,0 +1,40 @@
+#frh1{
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace; 
+}
+
+#div1{
+    text-align: center;
+}
+#play2{
+    width: 300px;
+    height: 200px;
+    transition: transform 0.5s ease-out
+}
+#play2:hover{
+    cursor: pointer;
+    transform: scale(1.2) rotate(5deg);    
+}
+#playclick{
+    position: absolute;
+    right: -405px;
+    top: 0px;
+    width: 400px;
+    height: 100vh;
+    border: 3px black solid;
+    display: flex;
+    
+    justify-items: center;
+    background-color: white;
+    transition: transform 0.5s ease-out
+}
+#arcade{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    transition: transform 0.5s ease-out
+}
+#arcade:hover{
+    cursor: pointer;
+    transform: scale(1.2) rotate(5deg);    
+}
